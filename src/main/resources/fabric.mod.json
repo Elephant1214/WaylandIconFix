@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "waylandiconfix",
+	"version": "${version}",
+	"name": "Wayland Icon Fix",
+	"description": "A simple mod to stop the game from trying to set an icon while running on Wayland",
+	"authors": [
+		"Elephant_1214"
+	],
+	"contact": {
+		"homepage": "https://elephant1214.me/",
+		"sources": "https://github.com/Elephant1214/WaylandIconFix",
+		"discord": "https://discord.gg/qpc69BUeDe"
+	},
+	"license": "Unlicense",
+	"icon": "assets/waylandiconfix/icon.png",
+	"environment": "client",
+	"mixins": [
+		"waylandiconfix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19",
+		"java": ">=17"
+	}
+}
